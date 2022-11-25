@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML form</title>
+<style>
+body{
+    background:lightblue;
+	
+}
+.contact-form{
+    max-width:350px;
+	margin-auto;
+	border-radius:5px;
+	background:#96bb72;
+	padding:20px;	
+}
+input[type=text], select{
+    width:100%;
+	padding:12px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;
+}
+input[type=submit]{
+    width:100%;
+	background:purple;
+	color:white;
+	padding:14px 20px;
+	margin:8px 0;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+	
+}
+input[type=submit] hover{
+    background:#000;
+}
+</style>
+</head>
+<body>
+<div class ="contact-form">
+    <form>
+	   
+
+        <label for ="name">Your name</label>
+		<input type ="text" name ="fullname" placeholder="Your Name...">
+		<label for ="email"> Your Email</label>
+		<input type ="text" name ="email" placeholder ="Your Email...">
+		<label for ="country"> Country</label>
+		<select id ="country">
+		    <option value ="Comlombia"> Colombia</option>
+			<option value ="Philippines"> Philippines</option>
+		    <option value ="USA"> USA</option>
+		    <option value ="India"> India</option>
+		    <option value ="Pakistan"> Pakistan</option>
+		    <option value ="UK"> UK</option>
+			
+			
+	</form>
+   <input type ="submit" value ="Submit"
+</div>
+</body>
+</html>
